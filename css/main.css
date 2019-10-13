@@ -199,13 +199,14 @@ nav {
     width: 100%;
     height: auto;
     position: relative;
+	top:44px;
 }
 
 .carousel .gradient {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100vh;
+    height: auto;
     position: absolute;
     background: -moz-linear-gradient(left, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%);
     background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%);
@@ -232,7 +233,7 @@ nav {
 
 .carousel .carousel-inner img {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -244,6 +245,8 @@ nav {
     margin-right: 0;
     margin-left: 0;
     position: relative;
+	
+	bottom:150px;
     cursor: pointer;
 }
 
@@ -261,19 +264,20 @@ nav {
 }
 
 .carousel-caption {
-    top: 40%;
+    top: 8%;
+
     bottom: auto;
     font-family: 'Playfair Display', serif;
 }
 
 .carousel-caption h1 {
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 700;
     text-transform: uppercase;
 }
 
 .carousel-caption .lead {
-    font-size: 18px;
+    font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 4px;
     font-weight: 400;
@@ -1586,8 +1590,6 @@ footer .img-thumbnail {
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
 }
-
-{}
 
 .blog-single figure .btn-danger,
 .blog-single figure .btn-danger:not(:disabled):not(.disabled):active {
